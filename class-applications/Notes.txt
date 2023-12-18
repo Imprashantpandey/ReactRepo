@@ -1,0 +1,58 @@
+React Environmental Setup
+=========================
+1) download and install NodeJS
+
+    -"npm" is the tool,present in NodeJS, helps to install ReactJS.
+
+    -"npm" stands for node packaging manager.
+
+website: "https://nodejs.og/en/download/"
+
+file : node-v14....-x64.msi
+
+    -msi stands for micrsoft installer
+
+2)install yarn tool
+    -yarn tool provided by Facebook
+
+    -we will install yarn tool, by using following command.
+
+    -npm install -g yarn@latest
+
+    -"npm" stands for node packaging manager.
+
+    -"-g" stands for global installation.
+
+3)install "create-react-app" tool.
+
+    -"create-react-app" is the tool, provided by Facebook.
+
+    -"create-react-app" tool helps to create the react projects
+
+    -npm install -g create-react-app 
+
+
+************************************************************************************************************
+1)create the directory
+    Ex: 
+        class-applications
+
+2)switch to directory(class-applications)
+    Ex: >cd class-applications
+
+3)create the react applications
+    Ex: >create-react-app first-app
+
+    -where "first-app" is the react applications
+
+4) switch to react application
+    >cd first-app
+
+5) execute the react application
+    >yarn start/npm start
+
+    - the default port no of react application is 3000
+
+
+
+
