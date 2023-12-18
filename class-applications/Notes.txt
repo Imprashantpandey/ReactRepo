@@ -53,6 +53,81 @@ file : node-v14....-x64.msi
 
     - the default port no of react application is 3000
 
+directory struture of react application
+========================================
+1) node_modules
 
+    -node_modules containes libraries, these libraries helps to execute the react applications.
+
+
+2) public
+
+    -all the main files of react application we will keep in public directory
+
+    -even though, if we move application to production these files names not renamed by production server.
+
+    -these files are cache files.
+
+3) public/favicon.ico
+
+    -favicon.ico is default logo of ReactJS
+
+4) public/index.html
+
+    - react starts the execution from index.html.
+
+    -index.html contains dom element(dom) whose id is root.
+
+5) public/logo192.png 
+        logo512.png
+    - these logos helps to execute react application in different resolution.
+
+6) public/manifest.json
+
+    - use to configure the mobile application development.
+
+7) public/robots.txt
+
+    - it helps to write SEO technics
+
+8)src
+
+    - it is used to deploy components.
+    
+9)src/App.js
+      App.css
+      App.test.js
+
+    - App component is the default component.
+
+10)src/index.css 
+
+    - it is used to define the global styles for components.
+
+11)src/index.js
+    
+    - this file called as configuration file
+
+    - this file used to configure components.
+
+12)src/logo.svg
+
+    - this image is the svg logo.
+
+
+13)src/reportWebVitals.js
+
+    - to configure pws environment.
+
+    - pws stands for progressive web applications
+
+14)src/setupTests.js
+
+    - this file is supporting file to implement unit test cases.
+
+
+15)package.json
+ 
+    - it is used to download the libraries.
 
 
